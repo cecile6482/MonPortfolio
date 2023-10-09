@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "BadHorse";
+    src: url("fonts/badhorse.ttf") format("opentype");
+}
+
+body {
+    background-color: #c5c1be;
+}
+
+header img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+header h1 {
+    color: #525014;
+    font-family: 'BadHorse', sans-serif;
+}
+
+nav a {
+    color: #525014;
+}
+
+nav ul li {
+    margin-right: 40px;
+}
+
+
+nav a[href="#accueil"] {
+    text-decoration: underline;
+    text-decoration-color: #525014;
+}
+
+#accueil img {
+    border: 10px solid;
+    border-radius: 50%;
+    border-image: linear-gradient(45deg, #776f69, #c5c1be) 1;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+#accueil h2 {
+    font-family: 'BadHorse', sans-serif;
+    font-size: 109px;
+    color: #525014;
+    margin-right: 200px;
+    margin-top: 80px;
+}
+
+blockquote {
+    border: 2px solid #776f69;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
