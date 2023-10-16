@@ -1,6 +1,64 @@
-.image-container img {
-    margin-left: 40%;
-    margin-top: 5%;
-    width: 900px;
-    height: 900px;
+body {
+    font-family: 'Young Serif', sans-serif;
+    color: #E6E8DC;
 }
+
+.main-content {
+    font-family: 'Young Serif', sans-serif;
+    color: #E6E8DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180vh; /* déduit la hauteur approximative du header */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.name, .role, .langages, .skills, .experience {
+    border: 2px solid #E6E8DC;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 100px;
+}
+
+.portrait img {
+    width: 300px; 
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.skills img {
+    width: 40px; 
+    margin: 5px;
+}
+
+
+/* .nav-window {
+    width: 60%; 
+    border: 1px solid #E6E8DC;
+    background-color: #030F32; 
+} */
+
+.skills, .experience {
+    padding: 20px; /* Espace à l'intérieur de la "fenêtre" */
+}
+
+
+
+

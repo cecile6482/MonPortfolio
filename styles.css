@@ -37,6 +37,7 @@ nav a[href="#accueil"] {
 #accueil img {
     margin-left: 30%;
     margin-top: 10%;
+    border: 2px solid #E6E8DC;
 }
 
 
