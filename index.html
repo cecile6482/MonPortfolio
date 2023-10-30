@@ -1,57 +1,174 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio de Cécile El Shtby</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
-      </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description" content="Cecile El Shtby's Coding Portfolio - Showcase of web development projects, coding skills, and expertise.">
+    <meta name="author" content="Cecile El Shtby">
+    <meta name="keywords" content="coding, web development, portfolio, projects, Cecile El Shtby">
+    <meta name="robots" content="index, follow">
 
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="animations.css">
+    
+    <meta property="og:title" content="Cecile El Shtby Coding Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourwebsite.com">
+    <meta property="og:image" content="https://www.yourwebsite.com/images/og-image.jpg">
+    <meta property="og:description" content="Explore Cecile El Shtby's coding portfolio showcasing web development projects and coding expertise.">
+
+    <link rel="icon" type="image/png" href="icon.png">
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="animations.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="main.js"></script>
+
+    <title>Cecile El Shtby</title>
 </head>
-
-<header class="row">
-    <div class="col-2">
-        <img src="img/horus.png" alt="Oeil d'Horus" width="150" height="90">
-    </div>
-    <div class="col-10 d-flex align-items-center">
-        <h1 class="mr-auto">Cécile El Shtby</h1>
-        <nav>
-            <ul class="d-flex">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="quisuisje.html">Qui suis-je ?</a></li>
-                <li><a href="projets.html">Projets</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>        
-    </div>
-</header>
-
-
-<body>
-
-    <section id="accueil" class="row">
-        <div class="col-6">
-                <div class="image-container">
-                    <img src="img/aumur.png" alt="Ma photo" width="300" height="300">
+<body onload = 'onload()'>
+    <div class = 'cover'></div>
+    <div class = "mainNameContainer">
+        <div class = "smallerVerContainer">
+            <div class = "jinnInfo">
+                <h1>
+                    Cécile El Shtby
+                </h1>
+                <div class = 'horContainer'>
+                    <img class = 'star1' src ='resources/images/star.png'>
+                        <button onclick = 'moveToResume()'class = "resume">
+                            &darr; CV
+                    </a>
+                    <a href="https://github.com/cecile6482" target="_blank">
+                        <button class = "github">
+                            &uarr; GITHUB
+                        </button>
+                    </a>
+                    <a href="mailto:cecile.elshtby@gmail.com">
+                        <button>EMAIL</button>
+                    </a>                    
+                    <img class = 'star2' src ='resources/images/star.png'>
                 </div>
             </div>
-            
-            
-
         </div>
+    </div>
 
-        <div class="col-6 position-relative"> 
-            <h2 id="portfolio-text">Ceci<br>est mon portfolio</h2> 
             
-        </div>
-    </section>
+                        
+                    
+    <div class = 'horContainer'>
+        <h2>&#x2605; T E C H N O L O G I E S &#x2605;</h2>
+    </div>
+    <br>
+    <div class = 'horContainer'>
+        <div class = 'tagContainer'>
+            <div class = "tag"> HTML </div>
+            <div class = "tag"> CSS </div>
+            <div class = "tag"> JAVASCRIPT </div>
+            <div class = "tag"> PHP </div>
+            <div class = "tag"> MYSQL </div>
+            <div class = "tag"> REACT </div>
+        </div>   
+    </div> 
+    <br><br>
+    <div class = 'horContainer'>
+        <h2>&#x2605; P R O J E T S &#x2605;</h2>
+    </div>
+    <br>
 
-    
-    
-    
+    <!-- weather app -->
+    <div class = 'horContainer'>
+        <div class = 'projContainer'>
+            <p class = 'projectTitle'> WEATHER APP </p>
+            <hr>
+            <div class = 'horContainer'>
+                <p class = 'projectDescription'> Une application météo basique </p>
+            </div>
+            <div class = 'horContainer'>
+                <p class = 'projectTags'> &#x2605; React &#x2605; Axios &#x2605; HTML &#x2605; CSS &#x2605; Javascript &#x2605; OpenWeatherMap API&#x2605;</p>
+            </div>
+
+            <div class = 'horContainer'>
+                <div class = 'thumbNailContainer'>
+                    <img class = 'horProjThumbnail' src = 'resources/images/weatherapp.png'>
+                </div>
+            </div>
+            <br>
+            <!-- <div class = 'horContainer'>
+                <p class = 'githubLink' onclick = 'moveToWeatherApp()'> VIEW PROJECT </p>
+            </div>
+            <br>
+            <div class = 'horContainer'>
+                <p class = 'githubLink' onclick = 'moveToWeatherAppGit()'> VIEW GITHUB </p>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- upStar -->
+    <!-- <div class = 'horContainer'>
+        <div class = 'projContainer'>
+            <p class = 'projectTitle'> upStar </p>
+            <hr>
+            <div class = 'horContainer'>
+                <p class = 'projectDescription'> A photo centered web-app social media platform.</p>
+            </div>
+            <div class = 'horContainer'>
+                <p class = 'projectTags'> &#x2605; HTML &#x2605; CSS &#x2605; Javascript &#x2605; PHP &#x2605; mySQL &#x2605;</p>
+            </div>
+            <div class = 'horContainer'>
+                <div class = 'thumbNailContainer'>
+                    <img class = 'verProjThumbnail' src = 'resources/images/thumbnails/upStar/login.png'>
+                    <img class = 'verProjThumbnail' src = 'resources/images/thumbnails/upStar/signup.png'>
+                    <img class = 'verProjThumbnail' src = 'resources/images/thumbnails/upStar/feed.png'>
+                    <img class = 'verProjThumbnail' src = 'resources/images/thumbnails/upStar/community.png'>
+                    
+                </div>
+            </div>
+            <br>
+            <div class = 'horContainer'>
+                <p class = 'githubLink' onclick = 'moveToUpStar()'> VIEW GITHUB </p>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- strikeout -->
+    <div class = 'horContainer'>
+        <div class = 'projContainer'>
+            <p class = 'projectTitle'> BARRE / COCHE </p>
+            <hr>
+            <div class = 'horContainer'>
+                <p class = 'projectDescription'> Une application web de liste de tâches. </p>
+            </div>
+            <div class = 'horContainer'>
+                <p class = 'projectTags'> &#x2605; HTML &#x2605; CSS &#x2605; Javascript &#x2605; PHP &#x2605; mySQL &#x2605;</p>
+            </div>
+            <div class = 'horContainer'>
+                <div class = 'thumbNailContainer'>
+                    <img class = 'verProjThumbnail' src = 'resources/images/barrecoche1.png'>
+                    <img class = 'verProjThumbnail' src = 'resources/images/barrecoche2.png'>
+                    <img class = 'verProjThumbnail' src = 'resources/images/barrecoche3.png'>
+                    
+                </div>
+            </div>
+            <br>
+            <!-- <div class = 'horContainer'>
+                <p class = 'githubLink' onclick = 'moveToStrikeout()'> VIEW GITHUB </p>
+            </div> -->
+        </div>
+    </div>
+
+    <p> cecile.elshtby@gmail.com </p>
+    <br><br>
+
 </body>
-
 </html>

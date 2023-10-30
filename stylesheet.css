@@ -1,0 +1,497 @@
+html, body 
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    background-position: center;
+    background-size: cover;
+    background-color: #004AAD;
+}
+
+@media (hover: hover) 
+{
+    button:hover, .githubLink:hover
+    {
+        opacity: .3;
+        cursor: pointer;
+    }
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+  
+
+.horContainer
+{
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.verContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+
+.gridContainer
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-area: overlap;
+}
+.cover
+{
+    background-color: #3d3d46;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+@media (orientation: landscape)
+{
+    .pinkSparkle
+    {
+        width: 6vh;
+        position: absolute;
+        top: 20vh;
+        left: 25vw;
+    }
+    .pinkSparkle2
+    {
+        width: 9vh;
+        position: absolute;
+        bottom: 17vh;
+        left: 10vw;
+    }
+    .pinkSparkle3
+    {
+        width: 6vh;
+        position: absolute;
+        bottom: 12vh;
+        right: 20vw;
+    }
+    .pinkSparkle4
+    {
+        width: 6vh;
+        position: absolute;
+        top: 10vh;
+        right: 25vw;
+    }
+    .pinkSparkle5
+    {
+        width: 6vh;
+        position: absolute;
+        bottom: 35vh;
+        right: 40vw;
+    }
+    .pinkSparkle6
+    {
+        width: 6vh;
+        position: absolute;
+        top: 35vh;
+        right: 8vw;
+    }
+    
+    .pinkSparkle7
+    {
+        width: 6vh;
+        position: absolute;
+        top: 8vh;
+        left: 8vw;
+    }
+    .smallerVerContainer
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 85%;   
+    }
+    h1
+    {
+        font-family: round;
+        text-align: center;
+        color:#ffffff;
+        font-size: 3em;
+        letter-spacing: .5vh;
+    }
+    .mainNameContainer
+    {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+    }
+    button
+    {
+        font-family: round;
+        font-size: 1em;
+        padding: 1.5vh 2vh 1.5vh 2vh;
+        border-radius: 5vw;
+        background-color: #ffd3ec;
+        border: 0;
+        margin: 0 2vh 0 2vh;
+        color: #383739;
+    }
+    .email
+    {
+        font-family: round;
+        text-align: center;
+        color:#ffffff;
+        font-size: 2em;
+        letter-spacing: .5vh;
+    }
+    h2
+    {
+        color: #ffdcee;
+        font-size: 1.4em;
+        font-family:round;
+    }
+    .projectTitle
+    {
+        font-family: round;
+        text-align: center;
+        color:#2a2a3a;
+        font-size: 1.7em;
+        letter-spacing: .5vh;
+        font-style: italic;
+    }
+    .projectDescription
+    {
+        font-family: round;
+        text-align: center;
+        color:#2a2a3a;
+        font-size: 1.1em;
+        text-wrap: wrap;
+        width: 50vw;
+    }
+    
+    .projectTags
+    {
+        font-family: round;
+        text-align: center;
+        color:#2a2a3a;
+        font-size: 1em;
+        width: max-content;
+        margin-bottom: 4vh;
+        background-color: #fff3face;
+        border: .3em solid #2a2a3ace;
+        border-radius: 3vh;
+        padding: 1vh 3vh;
+
+    }
+    .tagContainer 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tag
+    {
+        font-family: round;
+        font-size: 1em;
+        padding: 1.5vh 2vh 1.5vh 2vh;
+        border-radius: 5vw;
+        background-color: rgb(176, 195, 228);
+        border: .5vh solid white;
+        margin: 0 2vh 2vh 2vh;
+        color: #373a4e;
+    }
+    .projContainer
+    {
+        background-color: #ffffff70;
+        height: auto;
+        border-radius: 9vh;
+        border: .5vh solid white;
+        margin: 0 10vh 5vh 10vh;
+        padding: 4vh;
+    }
+    .verProjThumbnail
+    {
+        width: 17vw;
+        max-width:500px;
+        border-radius: 2vh;
+        margin: 1vw 2vh 1vw 2vh
+    }
+    .horProjThumbnail
+    {
+        width: 50vw;
+        max-width: 800px;
+        border-radius: 5vh;
+        margin: 1vw 2vh 1vw 2vh
+    }
+    .githubLink
+    {
+        font-family: round;
+        font-size: 1em;
+        padding: 1.5vh 2vh 1.5vh 2vh;
+        border-radius: 5vw;
+        background-color: rgba(255, 217, 232, 0.762);
+        border: 0;
+        margin: 0 2vh 0 2vh;
+        color: #2a2a3a;
+    }
+    .star1
+    {
+        width: 7vh;
+        height: 7vh;
+        margin-right: 4vh;
+    }
+    .star2
+    {
+        width: 7vh;
+        height: 7vh;
+        margin-left: 4vh;
+    }
+    hr
+    {
+        width: 70%;
+        border: .18vh solid #2a2a3a;
+        border-radius: 4vh;
+    }
+    p
+    {
+        font-family: round;
+        color: rgb(255, 230, 246);
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+
+@media (orientation: portrait)
+{
+    
+    .pinkSparkle
+    {
+        width: 10vw;
+        position: absolute;
+        top: 20vh;
+        left: 25vw;
+    }
+    .pinkSparkle2
+    {
+        width: 9vw;
+        position: absolute;
+        bottom: 23vh;
+        left: 10vw;
+    }
+    .pinkSparkle3
+    {
+        width: 10vw;
+        position: absolute;
+        bottom: 7vh;
+        right: 20vw;
+    }
+    .pinkSparkle4
+    {
+        width: 10vw;
+        position: absolute;
+        top: 4vh;
+        right: 25vw;
+    }
+    .pinkSparkle5
+    {
+        width: 10vw;
+        position: absolute;
+        bottom: 30vh;
+        right: 40vw;
+    }
+    .pinkSparkle6
+    {
+        width: 10vw;
+        position: absolute;
+        top: 30vh;
+        right: 8vw;
+    }
+    
+    .pinkSparkle7
+    {
+        width: 6vh;
+        position: absolute;
+        top: 8vh;
+        left: 8vw;
+    }
+    .smallerVerContainer
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 70%;   
+        margin-bottom: 15vh;
+    }
+    h1
+    {
+        font-family: round;
+        text-align: center;
+        color:#ffffff;
+        font-size: 1.8em;
+        letter-spacing: .5vw;
+    }
+    .mainNameContainer
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        height: calc(var(--vh, 1vh) * 100);
+        width: 100vw;
+        position: relative;
+    }
+    button
+    {
+        font-family: round;
+        font-size: .8em;
+        padding: 1.5vw 2.5vw;
+        border-radius: 5vw;
+        background-color: #ffd3ec;
+        border: 0;
+        margin: 0 2vw 0 2vw;
+        color: #383739;
+    }
+    .email
+    {
+        font-family: round;
+        text-align: center;
+        color:#ffffff;
+        font-size: 1.4em;
+        letter-spacing: .5vw;
+    }
+    h2
+    {
+        color: #ffdcee;
+        font-size: 1.1em;
+        font-family:round;
+    }
+    .projectTitle
+    {
+        font-family: round;
+        text-align: center;
+        color:#2a2a3a;
+        font-size: 1.4em;
+        letter-spacing: .5vw;
+        font-style: italic;
+    }
+    .projectDescription
+    {
+        font-family: round;
+        text-align: center;
+        color:#2a2a3a;
+        font-size: 1em;
+        width: 80%;
+    }
+    .projectTags
+    {
+        font-family: round;
+        text-align: center;
+        color:#2a2a3a;
+        font-size: .8em;
+        width: 80%;
+        margin-bottom: 4vw;
+        background-color: #fff3face;
+        border: .5em solid #2a2a3ace;
+        border-radius: 3vh;
+        padding: 1vw;
+    }
+    .tagContainer 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+    }
+      
+    .tag
+    {
+        font-family: round;
+        font-size: .8em;
+        padding: 1.5vw 2vw 1.5vw 2vw;
+        border-radius: 5vw;
+        background-color: rgb(176, 195, 228);
+        border: .7vh solid white;
+        margin: 0 2vw 3vw 2vw;
+        color: #373a4e;
+    }
+    .projContainer
+    {
+        background-color: #ffffff70;
+        height: auto;
+        padding: 1vw 2vw 1vw 2vw;
+        border-radius: 15vw;
+        border: .5vh solid white;
+        margin: 0 5vw 7vw 5vw;
+        
+    }
+    .thumbNailContainer
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+    }
+    .verProjThumbnail
+    {
+        width: 25vw;
+        border-radius: 5vw;
+        margin: 1vw 2vw 1vw 2vw
+    }
+    .horProjThumbnail
+    {
+        width: 70vw;
+        border-radius: 5vw;
+        margin: 1vw 2vw 1vw 2vw
+    }
+    .githubLink
+    {
+        font-family: round;
+        font-size: 1em;
+        padding: 1.5vw 2vw 1.5vw 2vw;
+        border-radius: 5vw;
+        background-color: rgba(255, 217, 232, 0.762);
+        border: 0;
+        margin: 0 2vw 2vw 2vw;
+        color: #2a2a3a;
+    }
+    .star1
+    {
+        width: 7vw;
+        height: 7vw;
+        margin-right: 4vw;
+    }
+    .star2
+    {
+        width: 7vw;
+        height: 7vw;
+        margin-left: 4vw;
+    }
+    hr
+    {
+        width: 85%;
+        border: .2vw solid #2a2a3a;
+        border-radius: 4vw;
+    }
+    p
+    {
+        font-family: round;
+        color: rgb(255, 230, 246);
+        text-align: center;
+        font-size: 1em;
+    }
+}
