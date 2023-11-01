@@ -26,11 +26,6 @@ function moveToResume()
     window.open('Resume.pdf', '_blank');
 }
 
-function moveToEmail()
-{
-    window.location.href = '<a href="mailto:email@example.com">Send Email</a>';
-}
-
 function moveToUpStar()
 {
     window.open("https://github.com/hpt155722/upStar", '_blank');

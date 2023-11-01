@@ -63,58 +63,7 @@ a
 }
 
 @media (orientation: landscape)
-{
-    .pinkSparkle
-    {
-        width: 6vh;
-        position: absolute;
-        top: 20vh;
-        left: 25vw;
-    }
-    .pinkSparkle2
-    {
-        width: 9vh;
-        position: absolute;
-        bottom: 17vh;
-        left: 10vw;
-    }
-    .pinkSparkle3
-    {
-        width: 6vh;
-        position: absolute;
-        bottom: 12vh;
-        right: 20vw;
-    }
-    .pinkSparkle4
-    {
-        width: 6vh;
-        position: absolute;
-        top: 10vh;
-        right: 25vw;
-    }
-    .pinkSparkle5
-    {
-        width: 6vh;
-        position: absolute;
-        bottom: 35vh;
-        right: 40vw;
-    }
-    .pinkSparkle6
-    {
-        width: 6vh;
-        position: absolute;
-        top: 35vh;
-        right: 8vw;
-    }
-    
-    .pinkSparkle7
-    {
-        width: 6vh;
-        position: absolute;
-        top: 8vh;
-        left: 8vw;
-    }
-    .smallerVerContainer
+{   .smallerVerContainer
     {
         display: flex;
         align-items: center;
@@ -276,59 +225,7 @@ a
 
 
 @media (orientation: portrait)
-{
-    
-    .pinkSparkle
-    {
-        width: 10vw;
-        position: absolute;
-        top: 20vh;
-        left: 25vw;
-    }
-    .pinkSparkle2
-    {
-        width: 9vw;
-        position: absolute;
-        bottom: 23vh;
-        left: 10vw;
-    }
-    .pinkSparkle3
-    {
-        width: 10vw;
-        position: absolute;
-        bottom: 7vh;
-        right: 20vw;
-    }
-    .pinkSparkle4
-    {
-        width: 10vw;
-        position: absolute;
-        top: 4vh;
-        right: 25vw;
-    }
-    .pinkSparkle5
-    {
-        width: 10vw;
-        position: absolute;
-        bottom: 30vh;
-        right: 40vw;
-    }
-    .pinkSparkle6
-    {
-        width: 10vw;
-        position: absolute;
-        top: 30vh;
-        right: 8vw;
-    }
-    
-    .pinkSparkle7
-    {
-        width: 6vh;
-        position: absolute;
-        top: 8vh;
-        left: 8vw;
-    }
-    .smallerVerContainer
+{   .smallerVerContainer
     {
         display: flex;
         align-items: center;
