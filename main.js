@@ -23,26 +23,14 @@ window.addEventListener('resize', setHeight);
 
 function moveToResume()
 {
-    window.open('Resume.pdf', '_blank');
+    window.open('CV_CDA.pdf', '_blank');
 }
 
-function moveToUpStar()
+function moveToVintageStore()
 {
-    window.open("https://github.com/hpt155722/upStar", '_blank');
+    window.open("https://github.com/cecile6482/M2i_CDA/tree/main/07.%20CSS/Exercices/exo_objets_a_vendre/rendu", '_blank');
 }
 
-function moveToStrikeout()
-{
-    window.open("https://github.com/hpt155722/strikeout", '_blank');
-}
 
-function moveToWeatherApp()
-{
-    window.open("https://jinnhaweatherapp.netlify.app/", '_blank');
-}
-function moveToWeatherAppGit()
-{
-    window.open("https://github.com/hpt155722/weather-app", '_blank');
-}
 
 
