@@ -31,6 +31,16 @@ function moveToVintageStore()
     window.open("https://github.com/cecile6482/M2i_CDA/tree/main/07.%20CSS/Exercices/exo_objets_a_vendre/rendu", '_blank');
 }
 
+function moveToAnsafCreationGH()
+{
+    window.open("https://github.com/cecile6482/base-apparel-coming-soon-master", '_blank');
+}
+
+function moveToAnsafCreation()
+{
+    window.open("https://cecile6482.github.io/base-apparel-coming-soon-master/", '_blank');
+}
+
 
 
 
