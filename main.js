@@ -41,6 +41,14 @@ function moveToAnsafCreation()
     window.open("https://cecile6482.github.io/base-apparel-coming-soon-master/", '_blank');
 }
 
+function moveToRMGH()
+{
+    window.open("https://github.com/cecile6482/rick-et-morty", '_blank');
+}
 
+function moveToRM()
+{
+    window.open("https://cecile6482.github.io/rick-et-morty/", '_blank');
+}
 
 
