@@ -51,4 +51,13 @@ function moveToRM()
     window.open("https://cecile6482.github.io/rick-et-morty/", '_blank');
 }
 
+function moveToWeatherAppGH()
+{
+    window.open("https://github.com/cecile6482/weather_project", '_blank');
+}
+
+// function moveToWeatherApp()
+// {
+//     window.open("https://cecile6482.github.io/rick-et-morty/", '_blank');
+// }
 
